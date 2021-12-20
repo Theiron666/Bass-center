@@ -1,0 +1,57 @@
+/* ================================================================== */
+/*                            Card Product                            */
+/* ================================================================== */
+
+.MuiGrid-root {
+  background-color: #ebebeb;
+}
+
+.App .card {
+  border-radius: 6px;
+  box-shadow: 1px 2px 4px black;
+  margin-top: 15px;
+  height: auto;
+  margin-bottom: 12px;
+  margin: 8px;
+}
+
+.buySections {
+  justify-content: space-around;
+}
+
+.buySections .buyIcon {
+  color: rgb(231, 46, 0);
+}
+
+.buySections .btnBuy {
+  background: linear-gradient(90deg, rgb(129, 20, 0) 40%, rgb(231, 35, 0) 100%);
+  border-radius: 5px;
+}
+
+.card .titCard {
+  font-size: 1.1rem;
+  font-family: "Orbitron", sans-serif;
+}
+
+.card .priceCard {
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 5px;
+  font-family: "Bebas Neue", cursive;
+}
+
+.card .stockCard {
+  font-size: 1.2rem;
+  text-align: end;
+  margin-right: 10px;
+  font-family: "Orbitron", sans-serif;
+}
+
+@media screen and (min-width: 200px) and (max-width: 450px) {
+  .App .card {
+    margin: 11px;
+  }
+  .card .priceCard {
+    font-size: 1.2rem;
+  }
+}

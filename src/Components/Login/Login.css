@@ -1,0 +1,35 @@
+/* ================================================================== */
+/*                              Login
+/* ================================================================== */
+.loginCenter {
+  background-color: #ebebeb;
+  margin: 0;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.css-iqq9ul-MuiPaper-root-MuiGrid-root {
+  border-radius: 5px;
+}
+
+.css-1vhaqj4-MuiButtonBase-root-MuiButton-root {
+  background: linear-gradient(90deg, rgb(129, 20, 0) 40%, rgb(231, 35, 0) 100%);
+}
+
+.css-1999axt-MuiAvatar-root {
+  background: linear-gradient(90deg, rgb(129, 20, 0) 40%, rgb(231, 35, 0) 100%);
+}
+
+/* ================================================================== */
+/*                              Responsive
+/* ================================================================== */
+
+@media screen and (min-width: 250px) and (max-width: 600px) {
+  .loginCenter {
+    height: 100% !important;
+  }
+  .css-iqq9ul-MuiPaper-root-MuiGrid-root {
+    border-radius: 0px;
+  }
+}

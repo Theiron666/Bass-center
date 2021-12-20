@@ -1,0 +1,129 @@
+/* ================================================================== */
+/*                              NavBar
+/* ================================================================== */
+
+.nav {
+  background: rgb(34, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgb(3, 0, 0) 20%,
+    rgb(119, 20, 0) 50%,
+    rgb(214, 96, 0) 100%
+  );
+}
+
+.App .logo {
+  font-family: "Sonsie One", cursive;
+  font-size: 1.1rem;
+  color: white;
+}
+
+.tit {
+  text-decoration: none;
+}
+
+.font-link {
+  color: white;
+  text-decoration: none;
+}
+
+.App .font-nav {
+  font-family: "Bangers", cursive;
+  font-size: 1.2rem;
+}
+
+.storeIcon {
+  color: white;
+  margin: auto;
+}
+
+/* ================================================================== */
+/*                              Nav Mobile
+/* ================================================================== */
+
+.App .MuiDrawer-paperAnchorRight {
+  background-color: #ebebeb;
+  backdrop-filter: blur(20px);
+  margin-top: 56.1px;
+  padding-top: 15px;
+  border-radius: 0px;
+  width: 210px;
+  display: flex;
+  box-shadow: 10px 50px 50px black !important;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.App .css-h4y409-MuiList-root {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 10rem !important;
+  font-size: 10rem;
+}
+
+.App .css-10hburv-MuiTypography-root {
+  font-size: 1.4rem !important;
+}
+
+#toggle {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+  width: 25px;
+  height: 3px;
+  border-radius: 5px;
+  background-color: #fff;
+  margin: 5px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-50deg) translate(-10px, 6px);
+  transform: rotate(-43deg) translate(-6.9px, 5px);
+}
+
+.change .bar2 {
+  opacity: 0;
+}
+
+.change .bar3 {
+  -webkit-transform: rotate(50deg) translate(-10px, -6px);
+  transform: rotate(43deg) translate(-6px, -5px);
+}
+
+.App .css-h4y409-MuiList-root a:-webkit-any-link {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5rem;
+  margin: 15px;
+  font-family: "Bangers";
+}
+hr {
+  margin: 0;
+}
+
+/* ================================================================== */
+/*                          Responsive Nav Mobile
+/* ================================================================== */
+
+@media screen and (min-width: 600px) and (max-width: 1200px) {
+  .App .css-18sg6k4-MuiPaper-root-MuiDrawer-paper {
+    margin-top: 64px;
+    width: 250px;
+  }
+}
+
+@media screen and (min-width: 200px) and (max-width: 900px) {
+  .nav {
+    transform: none !important;
+    visibility: visible !important;
+  }
+}
