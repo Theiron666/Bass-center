@@ -15,15 +15,15 @@ import List from "@mui/material/List";
 import { Link } from "react-router-dom";
 import { Badge } from "@material-ui/core";
 import { useStateValue } from "../../StateProvider";
-import { makeStyles } from "@material-ui/core/styles";
+// import { makeStyles } from "@material-ui/core/styles";
 
 /* ================================================================== */
 /*                               Styles
 /* ================================================================== */
 
-const useStyles = makeStyles({
+// const useStyles = makeStyles({
   
-});
+// });
 
 /* ================================================================== */
 /*                              Scroll-hide
@@ -52,7 +52,7 @@ HideOnScroll.propTypes = {
 /* ================================================================== */
 
 export default function NavBar(props) {
-  const classes = useStyles();
+  // const classes = useStyles();
 
   const [open, setOpen] = React.useState(false);
 
