@@ -15,15 +15,6 @@ import List from "@mui/material/List";
 import { Link } from "react-router-dom";
 import { Badge } from "@material-ui/core";
 import { useStateValue } from "../../StateProvider";
-// import { makeStyles } from "@material-ui/core/styles";
-
-/* ================================================================== */
-/*                               Styles
-/* ================================================================== */
-
-// const useStyles = makeStyles({
-  
-// });
 
 /* ================================================================== */
 /*                              Scroll-hide
@@ -52,8 +43,6 @@ HideOnScroll.propTypes = {
 /* ================================================================== */
 
 export default function NavBar(props) {
-  // const classes = useStyles();
-
   const [open, setOpen] = React.useState(false);
 
   const [isActive, setActive] = React.useState(false);
@@ -120,15 +109,12 @@ export default function NavBar(props) {
       </HideOnScroll>
       <Toolbar />
       <Drawer
-        sx={{
-          flexShrink: 0,
-          "& .MuiDrawer-paper": {},
-        }}
+        className="drawler"
         variant="persistent"
         anchor="right"
         open={open}
       >
-        <List>
+        <List className="listDrawler">
           <Link to="/" onClick={buttonSandw}>
             Profile
           </Link>

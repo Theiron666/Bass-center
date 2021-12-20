@@ -49,12 +49,13 @@ export default function CheckoutCard({
             {stock}
           </Typography>
           <CardMedia
+            className="imageSection"
             component="img"
             height="140"
             image={image}
             alt="green iguana"
           />
-          <CardContent>
+          <CardContent className="titArea">
             <Typography
               className="titCard"
               gutterBottom

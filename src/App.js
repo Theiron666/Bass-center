@@ -7,7 +7,6 @@ import Login from "./Components/Login/Login";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import CheckoutPage from "./Components/Checkout/CheckoutPage";
 
-
 function App() {
   return (
     <Router>
@@ -26,7 +25,6 @@ function App() {
             <Home />
             <Products />
           </Route>
-
         </Switch>
         <Footer />
       </div>

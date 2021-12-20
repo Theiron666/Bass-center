@@ -13,24 +13,10 @@ import { useStateValue } from "../../StateProvider";
 import accounting from "accounting";
 import { Link } from "react-router-dom";
 import "./Product.css";
-import { makeStyles } from "@material-ui/core/styles";
-
-const useStyles = makeStyles({
-  imageSection: {
-    height: "auto",
-    width: "100%",
-  },
-  titArea:{
-    maxHeight:"90px",
-    height:"90px"
-  }
-});
 
 export default function Product({
   product: { id, image, title, price, stock },
 }) {
-  const classes = useStyles();
-
   const [, dispatch] = useStateValue();
 
   const addToBasket = () => {
@@ -59,13 +45,13 @@ export default function Product({
             {stock}
           </Typography>
           <CardMedia
-            className={classes.imageSection}
+            className="imageSection"
             component="img"
             height="140"
             image={image}
             alt="green iguana"
           />
-          <CardContent className={classes.titArea}>
+          <CardContent className="titArea">
             <Typography
               className="titCard"
               gutterBottom

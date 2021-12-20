@@ -60,7 +60,10 @@ export default function SignInSide() {
               alignItems: "center",
             }}
           >
-            <Avatar sx={{ m: 1, bgcolor: "secondary.main" }}>
+            <Avatar
+              className="colorLockIcon"
+              sx={{ m: 1, bgcolor: "secondary.main" }}
+            >
               <LockOutlinedIcon />
             </Avatar>
 
@@ -98,6 +101,7 @@ export default function SignInSide() {
                 label="Recordar"
               />
               <Button
+                className="btnLogin"
                 type="submit"
                 fullWidth
                 variant="contained"

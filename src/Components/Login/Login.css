@@ -9,15 +9,11 @@
   align-items: center;
 }
 
-.css-iqq9ul-MuiPaper-root-MuiGrid-root {
-  border-radius: 5px;
-}
-
-.css-1vhaqj4-MuiButtonBase-root-MuiButton-root {
+.btnLogin {
   background: linear-gradient(90deg, rgb(129, 20, 0) 40%, rgb(231, 35, 0) 100%);
 }
 
-.css-1999axt-MuiAvatar-root {
+.colorLockIcon {
   background: linear-gradient(90deg, rgb(129, 20, 0) 40%, rgb(231, 35, 0) 100%);
 }
 
@@ -28,8 +24,5 @@
 @media screen and (min-width: 250px) and (max-width: 600px) {
   .loginCenter {
     height: 100% !important;
-  }
-  .css-iqq9ul-MuiPaper-root-MuiGrid-root {
-    border-radius: 0px;
   }
 }

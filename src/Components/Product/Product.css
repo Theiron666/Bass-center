@@ -47,6 +47,16 @@
   font-family: "Orbitron", sans-serif;
 }
 
+.imageSection {
+  height: auto;
+  width: 100%;
+}
+
+.titArea {
+  max-height: 90px;
+  height: 90px;
+}
+
 @media screen and (min-width: 200px) and (max-width: 450px) {
   .App .card {
     margin: 11px;
